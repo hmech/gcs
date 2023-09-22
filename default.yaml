@@ -1,0 +1,17 @@
+#BigQuery Project Name
+#Note, the naming scheme should be {onx/reportdataexternal/rde}-{company name}-{2 digit country code}
+project_id: onx-smart-ph
+#Customer name (no spaces, no caps i.e. nokia, telefonica-br)
+customer_name: smart-ph
+#Name of customer dataset in new BQ project (no whitespace i.e Nokia, Telefonica-BR)
+customer_datasets:
+  - Smart
+
+# Datasets included in Arguments.py
+#standard_datasets:
+#  - ONX360
+#  - ONXData
+#  - Region_Files
+#extra_datasets:
+#  - Opensignal
+#  - Logs
